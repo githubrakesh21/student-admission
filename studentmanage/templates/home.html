@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <title>Home Page</title>
+    <style>
+        .bg-container {
+
+background-image: radial-gradient(ellipse, #FAF2D3, #A8A196);
+
+/* background-image: radial-gradient(closest-corner, rgb(179, 198, 236) , rgb(4, 22, 74)); */
+
+height: 100vh;
+
+background-size: cover;
+
+}
+
+.home-page-container {
+
+height: 50%;
+
+width: 80%;    
+
+border-radius: 25px;
+
+background-color: rgba(250, 250, 250,0.1);    
+
+padding: 20px;
+
+}
+
+.main-heading {
+
+color: #c34b13;
+
+font-family: "Bree Serif";
+
+font-size: 50px;
+
+text-align: center;
+
+}
+
+
+
+.button-sn {
+
+color: #ebedf3 !important;
+
+background-color: #1a2b4f !important;
+
+height: 40px;
+
+width: 150px;
+
+background-size: cover;
+
+margin: 20px;
+
+
+
+}
+
+.button-lgn {
+
+color: #ebedf3 !important;
+
+background-color: #140901 !important;
+
+height: 40px;
+
+width: 150px;
+
+margin: 20px;
+
+background-size: cover;
+
+}
+
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="bg-container d-flex flex-row justify-content-center">
+
+        <div class="d-flex flex-column justify-content-center">
+
+            <div class="home-page-container shadow-lg">
+
+                <h1 class="main-heading mt-5 "> Welcome </h1>
+
+                <div class="d-flex flex-row flex-row justify-content-center mt-5">
+
+                    <button type="submit" onclick="window.location = 'http://127.0.0.1:8000/register/'" class="button-sn shadow-lg btn justify-content-start"> SignUp </button>
+
+                    <button type="submit" onclick="window.location = 'http://127.0.0.1:8000/login/'" class="button-lgn shadow-lg btn justify-content-end"> Login </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>

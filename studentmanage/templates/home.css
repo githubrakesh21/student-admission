@@ -1,0 +1,65 @@
+.bg-container {
+
+    background-color: #ae9060;
+
+    height: 100vh;
+
+    background-size: cover;
+
+}
+
+ 
+
+.home-page-container {
+
+    height: 100%;
+
+    border-radius: 25px;
+
+    background-image: linear-gradient(to right, rgb(179, 198, 236) , yellow, rgb(179, 198, 236));
+
+   
+
+    padding: 20px;
+
+}
+
+ 
+
+.main-heading {
+
+    color: #ec7012;
+
+    font-family: "Bree Serif";
+
+    font-size: 50px;
+
+    text-align: center;
+
+    margin: 50px;
+
+}
+
+ 
+
+.button-sn {
+
+    color: #f3f1f0f7;
+
+    background-color: #032261;
+
+    margin: 10px;
+
+}
+
+ 
+
+.button-lg {
+
+    color: #ffffff;
+
+    background-color: #032261;
+
+    margin: 10px;
+
+}
